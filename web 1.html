@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sri Sai Ranganathan Pharmacy College</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Segoe UI', sans-serif; line-height: 1.6; }
+    header { background: #1e3c72; color: #fff; padding: 20px 40px; }
+    header h1 { margin-bottom: 5px; }
+    nav a {
+      margin: 0 15px;
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+  background: url('download.jpg') no-repeat center center/cover;
+  color: white;
+  padding: 80px 40px;
+  text-align: center;
+  position: relative;
+  }
+     .hero::after {
+  content: '';
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Dark overlay for readability */
+  z-index: 0;
+}
+.hero h2, .hero p {
+  position: relative;
+  z-index: 1;
+}
+
+    .section {
+      padding: 60px 40px;
+    }
+    .section h2 {
+      margin-bottom: 20px;
+      img src=
+    }
+    .courses, .faculty {
+      display: flex;
+      gap: 30px;
+      flex-wrap: wrap;
+    }
+    .card {
+      background: #f4f4f4;
+      padding: 20px;
+      border-radius: 8px;
+      flex: 1;
+      min-width: 250px;
+    }
+    .contact {
+      background: #eaeaea;
+      padding: 40px;
+      text-align: center;
+    }
+    footer {
+      background: #1e3c72;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Sri Sai Ranganathan Pharmacy College</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#courses">Courses</a>
+      <a href="#faculty">Faculty</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Welcome to Sri Sai Ranganathan Pharmacy College</h2>
+    <p>Empowering future pharmacists with world-class education & research.</p>
+  </section>
+
+  <section class="section" id="about">
+    <h2>About Us</h2>
+    <p>Sri Sai Ranganathan Pharmacy College is dedicated to providing outstanding education and training to future pharmacists. We are affiliated with ABC University and approved by PCI.</p>
+  </section>
+
+  <section class="section" id="courses">
+    <h2>Our Courses</h2>
+    <div class="courses">
+      <div class="card">
+        <h3>Bachelor of Pharmacy (B.Pharm)</h3>
+        <p>Duration: 4 years</p>
+      </div>
+      <div class="card">
+        <h3>Diploma in Pharmacy (D.Pharm)</h3>
+        <p>Duration: 2 years</p>
+      </div>
+      <div class="card">
+        <h3>Master of Pharmacy (M.Pharm)</h3>
+        <p>Specializations in Pharmacology, Pharmaceutics, etc.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="faculty">
+    <h2>Our Faculty</h2>
+    <div class="faculty">
+      <div class="card">
+        <h3>Dr. Anjali Mehta</h3>
+        <p>Dean & Professor of Pharmacology</p>
+      </div>
+      <div class="card">
+        <h3>Mr. Rajeev Sharma</h3>
+        <p>Lecturer, Pharmaceutical Chemistry</p>
+      </div>
+      <div class="card">
+        <h3>Dr. Neha Kapoor</h3>
+        <p>Associate Professor, Pharmaceutics</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2>Contact Us</h2>
+    <p>Sri Sai Ranganathan Pharmacy College<br>123 Health Street, Pharma City, IN 123456<br>Phone: +91 98765 43210<br>Email: info@xyzpharmacy.edu.in</p>
+  </section>
+
+  <footer>
+    &copy; 2025 Sri Sai Ranganathan Pharmacy College. All rights reserved.
+  </footer>
+
+</body>
+</html>
